@@ -1,0 +1,144 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+}
+#header {
+  background-color: #0d6efd;
+  width:99%;
+  margin : 0 auto 0 auto;
+}
+#container {
+  height: 100%;
+  width: 98%;
+  margin: 1% auto 0 auto;
+
+
+}
+.div3, .div2 {
+   width: 98%;
+   margin : 0 auto 0 auto;
+   overflow: auto;
+   clear: both;
+   margin-top : 1%;
+}
+#section0 {
+  background-color: #ffc107;
+  width: 98%;
+  margin : 0 auto 0 auto;
+}
+#section1 {
+  background-color: #c6d9f1;
+  width: 22%;
+  float :left;
+}
+
+#section2 {
+  background-color: #e4b7b7;
+  width: 22%;
+  float :left;
+  margin-left : 4%;
+}
+
+#section3 {
+  background-color: #c3d69b;
+  width: 22%;
+  float :left;
+  margin-left : 4%;
+}
+
+#section4 {
+  background-color: #fac090;
+  width: 22%;
+  float :left;
+  margin-left : 4%;
+}
+#section5 {
+  background-color: #00b0f0;
+  width: 48%;
+  float :left;
+  margin-top:2%
+}
+
+#section6 {
+  background-color: #00b0f0;
+  width: 48%;
+  float :left;
+  margin-left : 4%;
+    margin-top:2%
+}
+
+#footer {
+  background-color: #b3a2c7;
+  position: relative;
+  width: 98%;
+  margin : 0 auto 0 auto;
+}
+@media screen and (max-width: 550px) {
+  #section1 {
+    background-color: #c6d9f1;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }
+  #section2 {
+    background-color: #e4b7b7;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }#section3 {
+    background-color: #c3d69b;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }#section4 {
+    background-color: #fac090;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }#section5 {
+    background-color: #00b0f0;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }
+  #section6 {
+    background-color: #00b0f0;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 786px) {
+  #section1 {
+    background-color: #c6d9f1;
+    width: 48%;
+    margin : 1% auto 0 auto;
+  }
+
+  #section2 {
+    background-color: #e4b7b7;
+    width: 48%;
+    float :left;
+    margin-left : 2%;
+    margin-top : 1%
+  }
+  #section3 {
+    background-color: #c3d69b;
+    width: 48%;
+    margin : 1% auto 0 auto;
+  }
+
+  #section4 {
+    background-color: #fac090;
+    width: 48%;
+    float :left;
+    margin-left : 2%;
+    margin-top : 1%
+  }
+  #section5 {
+    background-color: #00b0f0;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }
+  #section6 {
+    background-color: #00b0f0;
+    width: 98%;
+    margin : 1% auto 0 auto;
+  }
+}
